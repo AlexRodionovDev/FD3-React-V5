@@ -11,7 +11,7 @@
 
   render: function() {
 
-    if ( this.props.workMode==1 ) {
+    if ( this.props.workMode == 1 ) {
       return React.DOM.div(null,
         React.DOM.label({className:'VotesBlockAnswer'},
           React.DOM.input({type:'radio',value:this.props.code,name:'voteanswer'}),
